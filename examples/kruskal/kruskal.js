@@ -1,4 +1,4 @@
-const { union, find, makeSet } = require('../../union--find');
+const { union, find, makeSet } = require('../../union-find');
 
 const kruskal = ({ vertices, edges }) => {
   const selection = [];

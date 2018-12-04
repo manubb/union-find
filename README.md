@@ -6,7 +6,7 @@ A JS implementation of [disjoint-set](https://en.wikipedia.org/wiki/Disjoint-set
 ## Installation
 The library is available as a npm package:
 ```
-npm install union--find
+npm install @manubb/union--find
 ```
 
 ## Examples

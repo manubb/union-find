@@ -1,9 +1,9 @@
 {
-  "name": "union--find",
+  "name": "@manubb/union-find",
   "description": "a disjoint-set data structure",
   "author": "Manuel Baclet <mbaclet@gmail.com>",
   "version": "1.0.0",
-  "main": "union--find.js",
+  "main": "union-find.js",
   "scripts": {
     "example:components": "node examples/connected-components/example.js",
     "example:kruskal": "node examples/kruskal/example.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/manubb/union--find.git"
+    "url": "https://github.com/manubb/union-find.git"
   },
   "keywords": [
     "union-find",
@@ -20,7 +20,7 @@
     "merge–find"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/manubb/union--find#readme",
+  "homepage": "https://github.com/manubb/union-find#readme",
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
@@ -28,7 +28,7 @@
     "treeify": "^1.1.0"
   },
   "bugs": {
-    "url": "https://github.com/manubb/union--find/issues"
+    "url": "https://github.com/manubb/union-find/issues"
   },
   "babel": {
     "presets": [

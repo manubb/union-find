@@ -1,4 +1,4 @@
-const { union, makeSet } = require('../../union--find');
+const { union, makeSet } = require('../../union-find');
 
 const connectedComponents = ({ vertices, edges }) => {
   const forest = vertices.map(({ name }) => {

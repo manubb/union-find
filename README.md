@@ -46,7 +46,7 @@ obj.parent === obj
 ```js
 find(obj)
 ```
-returns the root of the tree that contains `obj`. (Sets are encoded by trees.) Checking if two objects belong to the same set can be done with:
+returns the root of the tree that contains `obj`. Checking if two objects belong to the same set can be done with:
 ```js
 find(obj1) === find(obj2)
 ```
@@ -58,7 +58,7 @@ union(obj1, obj2)
 merges the sets containing `obj1` and `obj2` and returns `undefined`.
 
 ## Complexity
-`makeSet` run in constant time. If n is the total number of elements, `find` and `union` run in amortized time `O(α(n))` where α is the inverse Ackermann function. It is a very slowly increasing function: `α(10^35164)=5`. For all practical purposes, one can consider that `find` and `union` run in constant amortized time.
+`makeSet` run in constant time. If `n` is the total number of elements, `find` and `union` run in amortized time `O(α(n))` where α is the inverse Ackermann function. It is a very slowly increasing function: `α(10^35164)=5`. For all practical purposes, one can consider that `find` and `union` run in constant amortized time.
 
 ## Usage
 

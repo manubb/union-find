@@ -6,7 +6,7 @@ A JS implementation of [disjoint-set](https://en.wikipedia.org/wiki/Disjoint-set
 ## Installation
 The library is available as a npm package:
 ```
-npm install @manubb/union--find
+npm install @manubb/union-find
 ```
 
 ## Examples
@@ -63,11 +63,11 @@ merges the sets containing `obj1` and `obj2` and returns `undefined`.
 ## Usage
 
 ```js
-import { makeSet, find, union } from 'union--find';
+import { makeSet, find, union } from '@manubb/union-find';
 ```
 
 or
 
 ```js
-const { makeSet, find, union } = require('union--find');
+const { makeSet, find, union } = require('@manubb/union-find');
 ```

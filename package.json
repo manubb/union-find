@@ -2,7 +2,7 @@
   "name": "@manubb/union-find",
   "description": "a disjoint-set data structure",
   "author": "Manuel Baclet <mbaclet@gmail.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "union-find.js",
   "scripts": {
     "example:components": "node examples/connected-components/example.js",

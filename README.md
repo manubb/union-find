@@ -1,5 +1,5 @@
-Union--Find
-===========
+Union-Find
+==========
 
 A JS implementation of [disjoint-set](https://en.wikipedia.org/wiki/Disjoint-set_data_structure) data structure for node and browsers.
 

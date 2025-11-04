@@ -1,14 +1,20 @@
 {
   "name": "@manubb/union-find",
-  "description": "a disjoint-set data structure",
+  "description": "a disjoint-set data structure js implementation",
   "author": "Manuel Baclet <mbaclet@gmail.com>",
   "version": "1.0.2",
-  "main": "union-find.js",
+  "files":["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/union-find.es.js",
+      "require": "./dist/union-find.umd.js"
+    }
+  },
   "scripts": {
     "example:components": "node examples/connected-components/example.js",
     "example:kruskal": "node examples/kruskal/example.js",
     "example:hk": "node examples/hoshen-kopelman/example.js",
-    "build": "babel src --out-dir ."
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
@@ -22,17 +28,10 @@
   "license": "MIT",
   "homepage": "https://github.com/manubb/union-find#readme",
   "devDependencies": {
-    "@babel/cli": "^7.1.0",
-    "@babel/core": "^7.1.0",
-    "@babel/preset-env": "^7.1.0",
-    "treeify": "^1.1.0"
+    "treeify": "^1.1.0",
+    "vite": "^7.1.12"
   },
   "bugs": {
     "url": "https://github.com/manubb/union-find/issues"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
   }
 }

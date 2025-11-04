@@ -1,4 +1,4 @@
-const { union, makeSet } = require('../../union-find');
+const { union, makeSet } = require('../../src/union-find');
 
 const hk = (grid) => {
   const forest = {};
